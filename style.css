@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  html 
+  {
+     height: 90%; 
+     background-image: linear-gradient(to bottom left, #8ca792,#faf6f9);  
+  }
+  body 
+  {
+    min-height: 100%;   
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #222;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 50px;
+  }
+  .container
+    {
+     max-width: 700px; 
+     /* height: 600px;   */
+     background: #fff;
+     margin: 0px auto 0px; 
+     /* box-shadow: 1px 1px 2px #DAD7D7;  */
+     border-radius: 3px;   
+     padding: 40px;
+     margin-top: 50px;
+    }
+  .header 
+   {
+     margin-top: 30px;
+   }
+  .image
+   {
+     float: left;
+     padding: 0px 20px 0px 0px; 
+   } 
+  .full-name 
+    {
+      font-size: 40px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+    
+    .first-name {
+      font-weight: 700;
+    }
+    
+    .position {
+      font-weight: bold;
+      display: inline-block;
+      margin-right: 10px;
+      font-size: 20px; 
+      font-weight: 300;
+    }
+    
+    .contact-info {
+      text-align: right;
+      margin: 20px;
+    }
+    
+    .email , .phone {
+      color: #999;
+      font-weight: 300;
+    } 
+    .ul 
+    { 
+      text-align: center;
+      width: auto;
+      list-style-type: none;
+        margin: 30px 50px 0px 50px; 
+        overflow: hidden;
+        /* background-color: rgb(82, 80, 80); */
+    }
+    .li 
+    {
+      display: inline-block; 
+      font-family: Arial, Helvetica, sans-serif;  
+    }
+    .li a 
+    {
+     
+     color: black;
+     /* width: 60px; */
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+    }
+
+    .li a:hover 
+    {
+     text-decoration: underline;
+    } 
+    .section {
+        margin-top: 40px;  
+      }
+    .section__title 
+    {
+        letter-spacing: 2px;
+        color: #54AFE4;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+      }
+      
+      .section__list-item {
+        margin-bottom: 40px;
+      }
+      
+      .section__list-item:last-of-type {
+        margin-bottom: 0;
+      }
+      
+      .left ,
+      .right {
+        vertical-align: top;
+        display: inline-block;
+      }
+      
+      .left {
+        width: 60%;    
+      }
+      
+      .right {
+        text-align: right;
+        width: 39%;    
+      }
+      
+      .name {
+        font-weight: bold;
+      }
+      
+     
+  
+    
+    
+      
+      
+
+    
